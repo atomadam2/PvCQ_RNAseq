@@ -11,7 +11,8 @@ count_reads.pl - perl script used to count all reads that overlap annotated gene
 
 count_assemble.pl - perl script used to compile output files from count_reads.pl from many samples. This will create a matrix of counts for all genes for all samples that can be used directly for downstream applications (EdgeR, PCA, etc.) Input: All output files from count_reads.pl. Output: Count matrix of genes (rows) and samples (columns)
 
-expression_simulation.R - R script used to simulate the gene expression differences in response to CQ between properly paired samples (same patient) vs randomly paired samples (different patients). Input: count matrix from count_assemble.pl (all_patient_count.txt). Output: results of 100 random comparisons.
+expression_simulation.R - R script used to simulate the gene expression differences in response to CQ between properly paired samples (same patient) vs randomly paired samples (different patients). Input: count matrix from count_assemble.pl with TPM conversion (all_patient_TPM.txt). Output: results of 100 random comparisons.
+
 
 List of files with descriptions:
 
