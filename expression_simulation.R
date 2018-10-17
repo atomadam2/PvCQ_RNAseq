@@ -2,10 +2,10 @@
 
 library(readr)
 
-# 2. Upload data *replace ###### with path to file "all_counts_TPM.txt"
+# 2. Upload data *replace ###### with path to file "all_patient_TPM.txt"
 # Before chloroquine treatment = "X_0" and After chloroquine treatment (8 hours) = "X_1"
 
-targets <- read_delim("~/######/all_counts_TPM.txt", "\t", escape_double = FALSE, trim_ws = TRUE)
+targets <- read_delim("~/######/all_patient_TPM.txt", "\t", escape_double = FALSE, trim_ws = TRUE)
 View(targets)
 
 # 3. Remove samples without chloroquine treatment data
