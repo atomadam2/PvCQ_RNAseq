@@ -3,7 +3,8 @@ Code and additional data for P. vivax RNA-seq studies from patient samples perfo
 
 This repository contains all additional code and files used in the following manuscript:
 
-In vivo P. vivax gene expression analyses reveal stage-specific chloroquine response and 2 differential regulation of male and female gametocytes.
+Plasmodium vivax transcriptomes reveal stage-specific chloroquine response and differential regulation of male and female gametocytes
+A Kim, J Popovici, D Menard, D Serre - Nature communications, 2019
 
 List of scripts with descriptions:
 
